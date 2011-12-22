@@ -5,7 +5,7 @@ app.debug = True
 @app.route("/")
 def hello():
 #    p()
-    return "Hello World xyz!"
+    return "Hello World!"
 
 from werkzeug.debug import DebuggedApplication
 application = DebuggedApplication(app, evalex=True)
