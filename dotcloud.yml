@@ -1,3 +1,4 @@
 www:
   type: python
-  instances: 2
+  instances: 1
+  
